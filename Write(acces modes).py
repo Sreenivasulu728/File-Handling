@@ -1,0 +1,5 @@
+fo=open('Jsp.txt','w')
+fo.writelines(['Python\n','JavaScript\n','Java\n','Sql\n','WebTech\n'])
+fo.write('Happy Pongal\n')
+fo.write('our cources')
+fo.close()

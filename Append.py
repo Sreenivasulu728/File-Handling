@@ -1,0 +1,12 @@
+'''fo=open('Jsp.txt','a')
+fo.write('GoodNight')
+fo.close()
+fo=open('Jsp.txt','a')
+fo.write('I need to sleep\n')
+fo.write('its too late')
+fo.close()'''
+fo=open('Jsp.txt','r')
+x=fo.read()
+fo=open('copy.txt','w')
+fo.write(x)
+fo.close()
